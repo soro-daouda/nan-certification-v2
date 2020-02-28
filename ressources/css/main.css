@@ -158,8 +158,30 @@ button{
     
 .navbar .dropdown-menu {
     border:none;
-    background-color:#973298!important;
+    background-color:white!important;
+    border: 1px solid black;
     z-index: 12345;
+}
+
+.navbar .ml-dropdown{
+    margin-left: 18rem;
+}
+
+.dropdown-menu li.nav-item{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.dropdown-menu li.nav-item .nav-link{
+    padding: 1rem;
+    transition: .5s;
+}
+
+.dropdown-menu li:hover{
+    background: #9632985d;
+    border-left: 2px solid #973298;
+    transition: .5s;
 }
 
 .dropdown-menu .drop-title{
@@ -168,6 +190,8 @@ button{
 
 .dropdown-menu ul li a{
     font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.651)!important;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.431);
 }
 
 .navbar input{
@@ -1427,14 +1451,14 @@ button{
 
 @media screen and (max-width: 767px){
 
-#card {
-    background: white;
-    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
-    padding: 2rem;
-    border-radius: 1.1rem;
-    width: 80%;
-}
-.form-group{
-    padding: .8rem 0rem;
-}
+    #card {
+        background: white;
+        box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
+        padding: 2rem;
+        border-radius: 1.1rem;
+        width: 80%;
+    }
+    .form-group{
+        padding: .8rem 0rem;
+    }
 }
