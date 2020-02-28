@@ -1132,6 +1132,277 @@ button{
 }
 
 
+/* LECTURE COURS *************************** */
+/* LECTURE COURS *************************** */
+/* LECTURE COURS *************************** */
+/* LECTURE COURS *************************** */
+
+.box-profil-information h1{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.box-profil-information button{
+    background: #973298;
+    border: 1px solid transparent;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: .3rem;
+    outline: none;  
+    margin-bottom: 4.5rem;  
+}
+
+.box-profil-information p{
+    color: white;
+}
+
+.box-profil-information p a{
+    color: rgb(165, 38, 29);
+    text-decoration: none;
+}
+
+/* section contenu */
+.main-box-lecture{
+    background: #ebeeef;
+    min-height: calc(100vh - 477px);
+}
+
+.second-menu-wrapper{
+	background: white;
+}
+.second-menu{
+	height: 50px;
+}
+
+.second-menu-element1{
+	height: 100%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	border-bottom: 5px solid #5390c0;
+}
+
+.coursContentx .title{
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+.coursContentx .title form{
+	display: flex;
+	border:1px solid #c3c3c3;
+	width: 300px;
+	height: 40px;
+}
+
+.coursContentx .title form:focus{
+    background: white;
+    border:2px solid #ebeeef;
+}
+
+.coursContentx .title input[type=text]{
+    width: 90%;
+    margin-right: 0;
+    border: none;
+    background: white;
+    font-size: 13px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.coursContentx .title input[type=submit]{
+    width: 15%;
+    border: none;
+    background-color: #5390c0;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.card{
+	margin-left: -25px;
+	margin-right: -25px;
+	font-size: 14px;
+	border-radius: 0px;
+	margin-bottom: 5px;
+	transition: .3s;
+	border:none;
+}
+
+.card:hover{
+	box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+}
+
+.card-header1{
+	padding: 8px 20px;
+	display: flex;
+	align-items: center;
+	border-radius: 0px;
+	background: white;
+	color: #686f7a;
+	height: 70px;
+	box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+
+.card-header1 .first-p{
+	margin: 0 auto;
+	width: 15%;
+	font-weight: bold;
+	color: #993399;
+}
+
+.card-header1 .second-p{
+	margin: 0 auto;
+	width: 75%;
+	font-size: 16px;
+}
+
+.card-header1 .third-p{
+	margin: 0 auto;
+	width: 10%;
+}
+
+.card-body{
+	background: white;
+	padding: 0;
+}
+
+/* .show{
+	background: #ebeeef;
+} */
+
+.table {
+  margin-bottom: 0rem !important;
+}
+
+.table tr {
+	border-bottom: 1px solid rgba(20,23,28,.1);
+}
+
+.table td {
+	border: none;
+
+}
+
+.table td a{
+	color: #5390c0;
+}
+
+.table td a:hover{
+	color: #292f3b;
+	text-decoration: none;
+}
+
+.coursVodeoElement{
+	width: 100%;
+	font-size: 16px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+	padding-top: 3px;
+}
+
+.coursVodeoElement img{
+	height: 25px;
+	width: 25px;
+	margin-right: 20px;
+}
+
+.coursRessoucesElements{
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 50px;
+	background: #ebeeef;
+	border-radius: 3px;
+}
+
+.coursRessoucesElements p{
+	width: 100%;
+	margin-left: 0px;
+	padding: 5px 20px;
+	margin-top: -15px;
+}
+
+.coursRessoucesElements p:hover{
+	background: #292f3b1c;
+}
+
+.coursRessoucesElements p img{
+	height: 20px;
+	width: 20px;
+}
+
+
+/* inscription */
+/* Inscription*/
+
+.main-box-inscription{
+    background: rgba(197, 195, 195, 0.431);
+}
+
+.block{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: calc(100vh - 143px);
+}
+#card{
+    background: white;
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
+    padding: 8rem 8rem;
+    border-radius: 1.1rem;
+    width: 80%;
+}
+
+.form-connexion{
+    padding: 8rem 8rem;
+    border-radius: 1.1rem;
+    width: 50%!important;
+}
+
+#card h2{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+}
+
+.form-group{
+    padding: 1rem 0rem;
+}
+
+.form-group input{
+    padding: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+.form-group ::placeholder{
+    font-size: 1.7rem;
+}
+
+.valide button{
+    padding: .8rem 3rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #8f96f5;
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.13);
+    color: white;
+    border-radius: .6rem
+}
+
+.valide button:hover{
+    background: #777ffe;
+}
+
+
 /* FOOTER ********************************* */
 
 #footer-p{
@@ -1225,6 +1496,7 @@ button{
         border: 1px solid rgba(0,0,0,.15);
         background-color: #fff;
     }
+
 }
 
 @media screen and (max-width: 992px){
@@ -1330,6 +1602,31 @@ button{
         width: 80%;
         margin: auto;
     }
+
+    /* page inscription et connexion */
+    #card {
+        background: white;
+        box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
+        padding: 2rem;
+        border-radius: 1.1rem;
+        width: 80%;
+    }
+    .form-group{
+        padding: .8rem 0rem;
+    }
+
+    /* page lecture cours */
+    .box-profil-image{
+        margin-top: 2rem;
+    }
+
+    .box-profil-information h1{
+        margin-top: 1rem;
+    }
+
+    .box-profil-information button{
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -1365,6 +1662,38 @@ button{
     .box-content_cours {
         width: 94%;
     }
+
+    /* page lecture cours */
+    .main-box-lecture .coursContentWrapper{
+        padding: 0 3rem;
+    }
+
+    .box-profil-information h1{
+        font-size: 2.5rem;
+    }
+
+    .box-profil-information button{
+        padding: .7rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    #headingOne.card-header{
+        padding: .2rem .7rem;
+    }
+
+    .coursContentx .title{
+        padding: 0 3rem;
+    }
+
+    .card-header .second-p{
+        font-size: 1.4rem;
+    }
+
+    .coursRessoucesElements{
+        margin-left: 0;
+        margin: auto;
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 370px){
@@ -1372,6 +1701,17 @@ button{
     /* cours */
     .MyBreadcrumb-text h2 {
         font-size: 3rem;
+    }
+
+    /* page lecture cours */
+    .coursContentx .title{
+        display: block;
+        margin: 2rem 0 1rem;
+    }
+
+    .coursContentx .title div{
+        text-align: center;
+        margin-top: 1rem;
     }
 }
 
@@ -1386,79 +1726,3 @@ button{
 
 
 
-/* inscription */
-/* Inscription*/
-
-.main-box-inscription{
-    background: rgba(197, 195, 195, 0.431);
-}
-
-.block{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: calc(100vh - 143px);
-}
-#card{
-    background: white;
-    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
-    padding: 8rem 8rem;
-    border-radius: 1.1rem;
-    width: 80%;
-}
-
-.form-connexion{
-    padding: 8rem 8rem;
-    border-radius: 1.1rem;
-    width: 50%!important;
-}
-
-#card h2{
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: bold;
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-}
-.form-group{
-    padding: 1rem 0rem;
-}
-.form-group input{
-    padding: 1.2rem;
-    border: 1px solid rgba(0, 0, 0, 0.39);
-    background: transparent;
-    font-size: 1.5rem;
-}
-.form-group ::placeholder{
-    font-size: 1.7rem;
-}
-.valide button{
-    padding: .8rem 3rem;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-    background-color: #8f96f5;
-    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.13);
-    color: white;
-    border-radius: .6rem
-}
-.valide button:hover{
-    background: #777ffe;
-}
-
-
-
-
-
-@media screen and (max-width: 767px){
-
-    #card {
-        background: white;
-        box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.205);
-        padding: 2rem;
-        border-radius: 1.1rem;
-        width: 80%;
-    }
-    .form-group{
-        padding: .8rem 0rem;
-    }
-}
